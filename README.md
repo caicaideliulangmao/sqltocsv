@@ -8,7 +8,7 @@ msql2csv.exe <server> <database> <username> <password> <tablename> <filepath>
 filepath为CSV存储文件地址
 导入CSV文件会以十万条数据生成一个CSV，一百万数据则有十个CSV
   
-oracletocsv需要两步编译
+oracletocsv需要两步编译\n
 pyinstaller -F -w orac2csv.py
 pyinstaller orac2csv.spec
 编译的orac2csv.spec需要按照spec文件下的文件orac2csv.spec进行修改
